@@ -1,0 +1,78 @@
+canvas {
+	border: 1px solid black;
+}
+#choice > label {
+	width: 400px;
+
+	height: 50px;
+	bottom: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#set > h3 {
+	text-align: center;
+	top: 50px;
+}
+
+#set {
+	position: absolute;
+	margin: auto;
+	width: 400px;
+	height: 220px;
+	background: blue;
+	display: none;
+	padding-top: 50px;
+	margin-top: 120px;
+	left: 670px;
+}
+
+
+#choice > label:nth-of-type(1):hover {
+		background-color: #ecebed;
+		font-weight: bold;
+	}
+#choice > label:nth-of-type(2):hover {
+		background-color: #ecebed;
+		font-weight: bold;
+	}
+#choice > label:nth-of-type(3):hover {
+		background-color: #ecebed;
+		font-weight: bold;
+	}
+
+	#level img {
+		width: 260px;
+		height: 500px;
+	}
+
+	.selectlevel h3 {
+				font-family : 'Hahmlet', serif;
+
+	}
+
+	.selectlevel h2 {
+		font-family : '국립박물관문화재단클래식B', serif;
+	}
+
+	.selectlevel {
+		position: relative;
+		float: left;
+	}
+
+	.selectlevel:hover{
+		opacity: 0.7;
+	}
+	.selectlevel:nth-of-type(2){
+		border-left: 10px solid white;
+
+		border-right: 10px solid white;
+	}
+	.leveltext {
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.8);
+		color: white;
+		bottom: 0;
+		width: 260px;
+		text-align: center;
+	}
